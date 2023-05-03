@@ -1,0 +1,31 @@
+
+    body{
+        background-color: rgb(124 119 93);
+    }
+    .main-header{
+       color: rgb(125, 190, 190);
+       font-family: Arial, Helvetica, sans-serif;
+    }
+    .words{
+        color: yellow;
+    }
+    .second-header{
+        color:rgb(125, 190, 190); 
+    }
+    .third-header{
+        color:rgb(125, 190, 190); 
+    }
+    .myParagraph{
+        font-style: italic;
+    }
+    .fourth-header{
+        color: rgb(125, 190, 190);
+    }
+    a{
+        color: rgb(136, 17, 17);
+
+    }
+    .last-header{
+        color:rgb(125, 190, 190) ;
+    }
+
