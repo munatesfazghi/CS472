@@ -1,9 +1,9 @@
 #banner {
-    background-image: url('/images/bannerbg.png');
+    background-image: url('/CS472/images/bannerbg.png');
 }
 
 #body-part {
-    background-image: url('/images/background.png');
+    background-image: url('/CS472/images/background.png');
 }
 
 .flex {
@@ -41,7 +41,7 @@ h2 {
 }
 
 #top-body-img {
-    background-image: url('/images/rbg.png'); 
+    background-image: url('/CS472/images/rbg.png'); 
     width: 100%;
 }
 
