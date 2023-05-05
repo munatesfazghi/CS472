@@ -15,7 +15,7 @@
 
        <!--<span>nerdLuv<sup>tm</sup></span>
         <span>where meek geeks meet</span>-->
-    <form action="https://mumstudents.org/params.php" method="get">
+    <form action="https://mumstudents.org/params.php" method="post">
         <fieldset id="mfieldset">
             <legend>New User SignUp:</legend>
             <div class="dRow">
@@ -23,7 +23,7 @@
                     <label for="Name" class="labels">Name:</label>
                 </div>
                 <div class="colum2">
-                    <input type="text" name="name" class="inputclass" size="10">
+                    <input type="text" name="name" value="muna" class="inputclass" size="10">
                 </div>
             </div>
             <div class="dRow">
@@ -60,7 +60,7 @@
                         <label for="fos" class="labels">Favourite OS:</label>
                     </div>
                     <div class="colum2">
-                       <select id="os" name="os">
+                       <select id="os" name="os[]" multiple>
                         <option value="windows">windows</option>
                         <option value="mac">Mac</option>
                         <option value="linux">linux</option>
