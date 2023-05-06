@@ -5,6 +5,7 @@
 .s-cont{
     display: flex;
     justify-content: space-around;
+
 }
 
 .j-content{
@@ -13,6 +14,7 @@
 }
 .t-list{
     display: flex;
+    color: blue;
    
 }
 
@@ -22,13 +24,26 @@ body{
 }
 
 .main-div{
-    width: 50%;
+    width: 40%;
     border-style: solid; 
     border-color: rgb(9, 9, 228);
 }
 
 .w-50{
     width: 50%;
+}
+input{
+    margin-bottom: 5px;
+    width: 188px;
+}
+#task-id{
+    width: 181px;
+    border-color: rgb(118, 194, 194);
+}
+#txtarea{
+    width: 222px;
+    margin-bottom: 5px;
+    height: 67px;
 }
 
 
