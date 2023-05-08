@@ -5,7 +5,7 @@
 function calcTip() {
     let subtotal =document.getElementById("subtotal").value;
     let tip = document.getElementById("tip").value;
-    document.getElementById("total").innerHTML=subtotal + subtotal*(tip/100);
+    document.getElementById("total").innerHTML=Number(subtotal) + Number(subtotal*(tip/100));
 }
 
 </script>
