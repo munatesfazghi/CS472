@@ -10,6 +10,8 @@ exports.add = function (req,res,vals) {
     <p>The sum is: ${String(sum)}</p>
     </body>
     </html> ` );
+
+
     return res.end();
     };
     
