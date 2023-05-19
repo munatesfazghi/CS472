@@ -25,7 +25,7 @@ $(document).ready(function () {
         filledSquares.leftpx = leftpx;
         filledSquares.toppx = toppx;
         arr.push(filledSquares);
-        $(this).css({"left": leftpx, "top": toppx, "backgroundImage": 'url("/images/backgroundfifteen.jpg")', "backgroundPosition": -x + 'px ' + (-y) + 'px'});
+        $(this).css({"left": leftpx, "top": toppx, "backgroundImage": 'url("/CS472/images/backgroundfifteen.jpg")', "backgroundPosition": -x + 'px ' + (-y) + 'px'});
         count++;
     });
 
